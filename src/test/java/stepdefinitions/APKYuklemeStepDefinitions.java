@@ -38,5 +38,6 @@ public class APKYuklemeStepDefinitions {
     @Given("example")
     public void example() {
         Allure.step("Örenk step");
+        System.out.println("deneme");
     }
 }
